@@ -8,7 +8,7 @@ pipeline {
 		SCANNER_HOME = tool 'sonar-scanner'
 		APP_NAME = "reddit-clone-app"
 		RELEASE = "1.0.0"
-		DOCKER_USER = "mukthadeer_01"
+		DOCKER_USER = "mukthadeer01"
 		DOCKER_PASS = 'PLSreebok@1234'
 		IMAGE_NAME = "${DOCKER_USER}" + "/" + "{APP_NAME}"
 		IMAGE_TAG = "${RELEASE}-${BUILD_NUMBER}"
